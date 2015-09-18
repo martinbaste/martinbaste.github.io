@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Some not-very-useful stuff I made.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+* A [Needleman-Wunsch and Smith-Waterman alignment table generator](partinez.github.io/Needle-Water/)
+* A [Kye](https://en.wikipedia.org/wiki/Kye_%28video_game%29 Wikipedia) clone using canvas (WIP) [JSKye](partinez.github.io/JSgame/).
