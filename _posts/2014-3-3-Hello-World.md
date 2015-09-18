@@ -1,10 +1,7 @@
 ---
 layout: post
-title: You're up and running!
+title: Guessing a dinosaur's DNA
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+We had a lecture about phylogenetics today, and somehow we ended up talking about dinosaurs. Apparently the decay rate of the DNA makes it almost impossible for us to get a dinosaur's DNA from it's fossil. This is because by the time we try to recover the genetic material, it will most probably be non-existant. But it looks like proteins decay slower, so we can get the proteins sequenced and get a little insight on the mollecular appearance of the dinosaurs.
+And it got me thinking. We can guess the DNA sequence for an amino acid sequence. We'll get a very large amount of valid DNA sequences. But what if we have multiple closely-related proteins? Can we make a better guess?
