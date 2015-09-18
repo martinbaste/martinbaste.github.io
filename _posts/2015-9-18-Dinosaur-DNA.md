@@ -48,10 +48,28 @@ If we had two closely related sequences, and they differ on a single position, w
    Assuming both sequences are "valid" forms of the protein, the third nucleotide could be any of the four, with the same probability.
 
 2. What would happen if the amino acids were *Phe* and *Leu*?
-   This are the codons coding for them:
-|Phe   | TTT |
-|      | TTC |
-|-----:|----:|
-|Leu   | TTA |
-|      | TTG |
-|-----:|----:|
+   This are the codons coding for them: **TTT** and **TTC** for *Phe* and **TTA**, **TTG** and **CTN** for *Leu*, where **N** is any of the four.
+   Again, assuming both amino acids are equaly "right", we will give them 1/2 probability to each one. 
+   The probability for a **T** in the first position would be 1 \* 1/2 + 2/6 \* 1/2 =  1/2 + 1/6 = 2/3.
+   The case for **C** would be 0 \* 1/2 + 4/6 \* 1/2 = 1/3. 
+   The probabilities for the third nucleotide, following the same logic:
+   **A** = 0 \* 1/2 + 2/6 \* 1/2 = 1/6
+   **T** = 1/2 \* 1/2 + 1/6 \* 1/2 = 1/4 + 1/12 = 1/3
+   **C** = 1/3 (The same as **T**)
+   **G** = 1/6
+   Adding them up gives us 1. 
+
+---
+
+###Enough for today
+
+We could add more sequences (altering the probability of each amino acid). 
+
+And we could assume a codon bias (altering the probability of each codon in a given amino acid).
+
+But I guess we'll do that some other day.
+
+This way we can imagine a little bit better the dinosaurs DNA. Is this any useful? I don't think so.
+If we can get the protein, it means that that specific gene was meant to be translated into a protein.
+Having the DNA sequence is pretty much useless if we have the amino acid sequence. 
+And there is no way of getting the non coding DNA from the proteins.
