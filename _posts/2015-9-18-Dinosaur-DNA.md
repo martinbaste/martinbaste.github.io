@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Guessing a dinosaur's DNA
+title: "Guessing a dinosaur's DNA"
+published: true
 ---
+
 
 We had a lecture about phylogenetics today, and somehow we ended up talking about dinosaurs.
 Apparently the decay rate of the DNA makes it almost impossible for us to get a dinosaur's DNA from it's fossil. This is because by the time we try to recover the genetic material, it will most probably be non-existant. 
@@ -63,7 +65,6 @@ If we had two closely related sequences, and they differ on a single position, w
 
 ---
 
-###Enough for today
 
 We could add more sequences (altering the probability of each amino acid). 
 
