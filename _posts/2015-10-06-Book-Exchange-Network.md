@@ -1,18 +1,21 @@
 ---
 published: true
 layout: post
+title: Book Exchange Network
 ---
 
-## A web developing exercise.
+
 I've always been quite interested in web development. Some time ago I did a [tutorial](http://www.tangowithdjango.com/) to learn Django. [Django](https://www.djangoproject.com/) is a web framework to make apps. I chose it mainly because I love python and I heard good things about it. 
 
 But some time ago I discovered [Meteor](https://www.meteor.com/). Apparently it takes a different approach than Rails or Django, and you can quickly build web apps (available for iOS and Android too) that are updated real-time in your browser. Last week I followed the book [Discover Meteor](https://www.discovermeteor.com/), which shows you how to make [microscope](https://github.com/Partinez/microscope).
 
 I'm also learning HTML, CSS and Javascript on my own, using different available sites, such as [Dash](https://dash.generalassemb.ly) (recomended), Codecademy and [Coursera](https://www.coursera.org/specializations/full-stack).
 
+## A web developing exercise.
+
 I think having a "bigger project" would be a nice step forward. It's something to motivate myself, a way to practice what I'm learning and also something to show others. I will continue learning on my own, and if I get stuck I can always put the project on hold. I like [Stanley Idesis's answer on Quora](https://www.quora.com/How-do-I-learn-web-development/answer/Stanley-Idesis), so I'm going to follow his approach.
 
-### Book Exchange Network
+## Book Exchange Network
 The idea is not complex at all nor new, but I think it can be useful. The app should be a place where people can swap books they have read for other books they are interested in. As I said, the idea is [not new](http://bookmooch.com), but I think it's great and could be a good exercise. I've thought of a few [user stories](http://www.agilemodeling.com/artifacts/userStory.htm) that should help with the development:
 * [MVP] As a user I want to list the books I have available to swap.
 * [MVP] As a user I want to be able to list the books I'm interested in.
