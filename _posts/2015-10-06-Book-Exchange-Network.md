@@ -17,16 +17,27 @@ I think having a "bigger project" would be a nice step forward. It's something t
 
 ## Book Exchange Network
 The idea is not complex at all nor new, but I think it can be useful. The app should be a place where people can swap books they have read for other books they are interested in. As I said, the idea is [not new](http://bookmooch.com), but I think it's great and could be a good exercise. I've thought of a few [user stories](http://www.agilemodeling.com/artifacts/userStory.htm) that should help with the development:
+
 - [MVP] As a user I want to list the books I have available to swap.
+
 - [MVP] As a user I want to be able to list the books I'm interested in.
+
 - [MVP] As a user I want to search the books I'm interested in.
+
 - As a user I want to be able to receive alerts when books I'm interested in become available.
+
 - [MVP] As a user I want to be able to contact people to swap books.
+
 - As a user I wan to be able to locate the books available in a map.
-- There should be a book database to gather basic information from (image, description...)
+
+- There should be a book database to gather basic information from (image, description...).
+
 - There should be a point sistem available to control the book swap.
+
 - Books should have a value in points proportional to supply and demand.
+
 - As a user I should be able to share the books I'm interested in and the books I have available on Facebook/Twitter/etc.
+
 - The app should be available in smartphones.
 
 [MVP] means that the item should be included in the Minimum Viable Product. This is enough to get started. I think one important feature is to be able to adjust the value of the book according to the supply and demand. It would make some sense to have all the books valued the same, but then the site would end up filled with very common (and maybe cheap?) books and any highly demanded book would last seconds. 
