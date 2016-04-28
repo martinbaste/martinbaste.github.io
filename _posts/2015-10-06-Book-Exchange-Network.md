@@ -5,7 +5,7 @@ title: Book Exchange Network
 ---
 
 
-I've always been quite interested in web development. Some time ago I did a [tutorial](http://www.tangowithdjango.com/) to learn Django. [Django](https://www.djangoproject.com/) is a web framework to make apps. I chose it mainly because I love python and I heard good things about it. 
+I've always been quite interested in web development. Some time ago I followed a [tutorial](http://www.tangowithdjango.com/) to learn Django. [Django](https://www.djangoproject.com/) is a web framework to make apps. I chose it mainly because I love python and I heard good things about it. 
 
 But some time ago I discovered [Meteor](https://www.meteor.com/). Apparently it takes a different approach than Rails or Django, and you can quickly build web apps (available for iOS and Android too) that are updated real-time in your browser. Last week I followed the book [Discover Meteor](https://www.discovermeteor.com/), which shows you how to make [microscope](https://github.com/Partinez/microscope).
 
