@@ -1,3 +1,10 @@
+---
+published: false
+---
 ## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+###[Patternlab and atomic design](http://patternlab.io/)
+Some stuff goes here.
+
+###[Creating a blog with Jeckyll and github.io](https://jekyllrb.com/)
+and another link to github.io stuff.
