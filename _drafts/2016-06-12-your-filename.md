@@ -20,3 +20,5 @@ and another link to github.io stuff.
 ### [Craftmanship, design and code](https://medium.freecodecamp.com/craftsmanship-design-and-code-6d93eba3e7fe#.me835v80w)
 
 And [this](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
+
+http://learnlayout.com/
