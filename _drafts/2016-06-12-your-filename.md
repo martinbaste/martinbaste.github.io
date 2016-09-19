@@ -25,3 +25,5 @@ http://learnlayout.com/
 Data Elixir
 
 https://medium.com/the-mission/why-keeping-a-daily-journal-could-change-your-life-b9421a69912a#.19e5z2k7h
+
+kvstore http://www.kvstore.io/
