@@ -1,165 +1,18 @@
 ---
-layout: landing-page
----		
-		<!-- Main -->
-			<article id="main">
+layout: default
+---
 
-				<header class="special container">
-					<span class="icon fa-bar-chart-o"></span>
-					<h2>I am a <strong>Bioinformatician</strong> <br />
-						who loves creating web applications.<br />
-						I focus on useful solutions<br /> 
-						with maintainable code.</h2>
-					<p>
-						I mostly enjoy working on the front end, where I can focus on the user experience. My code here is usually <strong>VanillaJS</strong> or <strong>ReactJS</strong>.
-						I also have experience with server code, and have used Python and java extensively.
-						<br />
-						I learned programming with <strong>Python</strong>, creating small games, analyzing biological data and helping students learn  it.
-						<br />
-						I enjoy reading books, connecting seemingly different ideas and attending <strong>hackathons</strong>,<br />
-						where I can test my skills against a concrete problem, design a solution and implement it.
-						<br />
-						Feel free to take a look at some of my <strong>projects</strong>.
-					</p>
-				</header>
-					
-				<!-- One -->
-				<!--
-					<section class="wrapper style2 container special-alt">
-						<div class="row half">
-							<div class="8u">
-							
-								<header>
-									<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
-								</header>
-								<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
-								<footer>
-									<ul class="buttons">
-										<li><a href="#" class="button">Find Out More</a></li>
-									</ul>
-								</footer>
-							
-							</div>
-							<div class="4u skel-cell-important">
-							
-								<ul class="featured-icons">
-									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-									<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-									<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-								</ul>
-							
-							</div>				
-						</div>
-					</section>
-					
-				<!-- Two -->
-				<!--
-					<section class="wrapper style1 container special">
-						<div class="row">
-							<div class="4u">
-							
-								<section>
-									<span class="icon featured fa-check"></span>
-									<header>
-										<h3>This is Something</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<span class="icon featured fa-check"></span>
-									<header>
-										<h3>Also Something</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-								</section>
-							
-							</div>
-							<div class="4u">
-							
-								<section>
-									<span class="icon featured fa-check"></span>
-									<header>
-										<h3>Probably Something</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-								</section>
-							
-							</div>
-						</div>
-					</section>
-					
-				<!-- Three -->
-					<section class="wrapper style3 container special">
-					
-						<header class="major">
-							<h2><strong>Portfolio</strong></h2>
-						</header>
-						
-						<div class="row">
-							<div class="6u">
-								<section>
-									<a href="https://devpost.com/software/torture-awareness-globe" class="image featured"><img src="images/globe.png" alt="The earth globe showing events as points of light" /></a>
-									<header>
-										<h3><a href="https://devpost.com/software/torture-awareness-globe">Torture Awareness Globe</a></h3>
-									</header>
-									<p>My team and I created this site for the <a href="https://www.openhack.io">Malmö 2017 Openhack</a>. The <strong>challenge</strong>, proposed by the Ludwig Boltzmann Institute of Human Rights (BIM) in Vienna, was to create a site that showcased torture-awareness events around the world. We focused our day and a half in creating a <strong>stunning visualization</strong>, showing the events as nodes of light in a dark world. The biggest technical challenge was using three.js to create the 3D globe and learning about <strong>textures, meshes and shaders</strong>. We ended up winning the awards for best humanitarian impact and best speech :).</p>
-								</section>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-							</div>
-							<div class="6u">
-							
-								<section>
-									<a class="image featured"><img src="images/database.png" alt="Gene database site example" /></a>
-									<header>
-										<h3>Gene database</h3>
-									</header>
-									<p>While working on my Master's I developed a web application to <strong>browse and analyze</strong> genes of a specific family. The site includes a author-only section where the lab members can <strong>update experiment results</strong>. These results get parsed and <strong>integrated</strong> with the rest of the data, then added to the browse section. The entire back end is done with python cgi (no framework) and sqlite.</p>
-								</section>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-							</div>
-						</div>
-						<div class="row">
-							<div class="6u">
-							
-								<section>
-									<a class="image featured"><img src="images/charitymatch.png" alt="" /></a>
-									<header>
-										<h3>CharityMatch</h3>
-									</header>
-									<p>My first hackathon experience. We brought our own challenge to the hackathon: To create a site where you are matched with a charity with the same <strong>values</strong> as you. I worked on the front end while my teammates did the back end in Django. The site has a <strong>filter interface</strong> that updates the matching sites in real time.</p>
-								</section>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-							</div>
-						</div>
-
-						<!--footer class="major">
-							<ul class="buttons">
-								<li><a href="#" class="button">See More</a></li>
-							</ul>
-						</footer-->
-					
-					</section>
-					
-			</article>
-
-		<!-- CTA -->
-			<section id="cta">
-				<a id="contact"></a>
-				<header>
-					<h2>Have a <strong>project in mind</strong>?</h2>
-				</header>
-				<footer>
-					<ul class="buttons">
-						<li><a href="mailto:hi@martinbaste.com" class="button special">Contact me</a></li>
-						<!--li><a href="#" class="button">LOL Wut</a></li-->
-					</ul>
-				</footer>
-			
-			</section>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
