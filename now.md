@@ -4,12 +4,10 @@ title: Now
 permalink: /now/
 ---
 
-Some information about you!
+I'm moving to Copenhagen!
 
-### More Information
+Now I'm improving my ReactJS, Node and MongoDB skills. After I'm done with the current course, some proof of concept app might be the next step.
 
-A place to include any other types of information that you'd like to include about yourself.
+Feel free to contact me! m at martinbaste dot com.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[What is this?](https://nownownow.com/about)
