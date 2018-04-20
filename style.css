@@ -1,9 +1,5 @@
 
 
-/**************/
-/* BASE RULES */
-/**************/
-
 html {
   font-size: 100%;
 }
@@ -47,14 +43,6 @@ strong, b {
   font-weight: bold;
 }
 
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -63,19 +51,10 @@ strong, b {
   padding: 20px 0;
   /*border-bottom: 1px solid $lightGray; */
 
-  @include mobile {
-    text-align: center;
-  }
 }
 
 .site-info {
   float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 .site-name {
@@ -89,40 +68,20 @@ strong, b {
 .site-description {
   margin: -5px 0 0 0;
   font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
 }
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: black;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-    }
-  }
 }
-
-//
-// .main
-//
+nav a {
+  margin-left: 20px;
+  color: black;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -134,20 +93,18 @@ nav {
   border-bottom: none;
 }
 
-.post {
-  blockquote {
+.post blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid #888888;
     padding: 0.1em 1em;
     color: #888888;
     font-size: 22px;
     font-style: italic;
-  }
+}
 
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
+.post .read-more {
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .wrapper-footer {
