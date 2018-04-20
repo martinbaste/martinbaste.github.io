@@ -6,7 +6,7 @@ html {
 
 body {
 	background: white;
-  font: Arial;
+  font-family: Arial, sans-serif;
   color: #222222;
 }
 
@@ -111,7 +111,6 @@ nav a {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #cccccc;
 }
 
 footer {
