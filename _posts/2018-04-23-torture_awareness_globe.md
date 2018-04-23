@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Torture Awareness Globe
 permalink: tortureglobe
 ---
