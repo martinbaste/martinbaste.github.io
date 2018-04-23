@@ -85,24 +85,5 @@ exclude:
   - README.md
   - CNAME
 prose:
-  rooturl: '_posts'
   siteurl: 'https://martinbaste.com/'
   media: 'media'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "text"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          value: false
-      - name: "permalink"
-        field:
-          element: "text"
-          value: ""
