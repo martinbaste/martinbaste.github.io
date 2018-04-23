@@ -13,4 +13,4 @@ We ended up winning the awards for best humanitarian impact and best speech :).
 Check out the [source code](https://github.com/LinkPact/OH2017Malmo) and try [the application](https://linkpact.github.io/OH2017Malmo/) (browser compatibility is far from perfect). 
 
 
-![Torture awareness globe screenshot]({{site.baseurl}}//images/globe.png)
+![Torture awareness globe screenshot]({{site.baseurl}}/images/globe.png)
