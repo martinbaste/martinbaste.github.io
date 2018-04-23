@@ -2,6 +2,7 @@
 layout: post
 title: "Gene Database"
 permalink: gene-database
+published: true
 ---
 
 While working on my Master's I developed a web application to **browse and analyze** genes of a specific 
