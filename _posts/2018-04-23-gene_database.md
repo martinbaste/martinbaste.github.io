@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gene Database"
+title: Gene Database
 permalink: gene-database
 published: true
 ---
@@ -12,4 +12,4 @@ The site includes a author-only section where the lab members can **update exper
 
 The entire back end is done with python cgi (no framework) and sqlite.
 
-![Gene database picture](/images/database.png)
+![Gene database picture]({{site.baseurl}}/images/database.png)
