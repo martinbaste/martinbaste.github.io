@@ -50,7 +50,7 @@ layout: default
   </section>
   <section class="posts">
     <h2>Posts</h2>
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
