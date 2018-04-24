@@ -17,8 +17,6 @@ body {
   width: 100%;
 }
 
-
-
 p {
   margin: 15px 0;
 }
@@ -55,6 +53,8 @@ strong, b {
 
 .site-info {
   float: left;
+  width: 100%;
+  position: relative;
 }
 
 .site-name {
@@ -63,11 +63,19 @@ strong, b {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  display: inline-block;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   font-size: 16px;
+}
+
+.links {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 nav {
