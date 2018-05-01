@@ -2,117 +2,65 @@
 layout: default
 ---
 <div>
-	<p>
+  <p>
     My site is plain on purpose.
     I believe in keeping what matters and discarding the rest.
     Obviously inspired by <a href="https://sivers.org">Sivers's site</a>.
-	</p>
-	<section>
-  	<h2>Me in 30 seconds</h2>
-  	<p>
-			I am a bioinformatician who loves creating <a href="#apps"> web applications</a>.
-			Science is fun, but I like working on anything 
-			that makes the user's lives easier.
-		</p>
-		<p>
-			I do <strong>front-end</strong>, where you I communicate
-			with the user thanks to the language of UX/UI.
-			I value <strong>usability</strong>, <strong>stability</strong> and <strong>code maintainability</strong>, 
-			specially for large applications.
-		</p>
-		<p>
-			My code here is usually <strong>vanilla</strong> or <strong>ReactJS</strong>, 
-			and I also have some experience with D3.js.
-		</p>
-		<p>
-			I also deal with <strong>back-end</strong>, where
-			the heavy lifting is usually done.
-			My preferred tools here 
-			are <strong>Python</strong> (Django and Flask) 
-			and <strong>Node</strong> (Express).
-		</p>
-		<p>
-			Above all, I value learning. Experience and skill shouldn't be only measured
-			in years but in the actions you take to continue learning. 
-		</p>
-		<p>
-			Hey, but not everything is programming. I also enjoy reading books 
-			and growing plants using the magic of Hydroponics. Space, travelling,
-			philosophy, games, <a href="https://waitbutwhy.com">the why of things</a>,
-			meditation, cats, minimalism or Japan are topics you can 
-			use to get me to talk for a while.
-		</p>
-	</section>
-	<section>
-		<h2 id="apps">Web applications</h2>
-		<div>
-			<h3>Gene Database</h3>
-			<img className="app-img" src="images/database.png" />
-			<p>
-				While working on my Master's I developed a web application 
-				to <strong>browse and analyze</strong> genes of a specific 
-				family.
-			</p>
-			<p>
-				The site includes a author-only section where the 
-				lab members can <strong>update experiment results</strong>. 
-				These results get parsed and <strong>integrated</strong> with 
-				the rest of the data, then added to the browse section, 
-				which includes <strong>filters</strong> to locate the right information.
-			</p>
-			<p>
-				The entire back end is done with python cgi (no framework) and sqlite.
-			</p>
-		</div>
-		<div>
-			<h3>CharityMatch</h3>
-			<a class="image featured">
-				<img className="app-img" src="images/charitymatch.png" alt="" />
-			</a>
-			<p>
-				My first hackathon experience. We brought our own challenge 
-				to the hackathon: To create a site where you are matched 
-				with a charity with the same <strong>values</strong> as you.
-			</p>
-			<p>
-				I worked on the front end while my teammates did the back end 
-				in Django. The site has a <strong>filter interface</strong> that 
-				updates the matching sites in real time.
-			</p>
-		</div>
-		<div>
-		<h3>
-			<a href="https://devpost.com/software/torture-awareness-globe">
-				Torture Awareness Globe
-			</a>
-		</h3>
-			<a href="https://devpost.com/software/torture-awareness-globe">
-				<img className="app-img" src="images/globe.png" alt="The earth globe showing events as points of light" />
-			</a>
-			<p>
-				My team and I created this site for the <a href="https://www.openhack.io">Malmö 2017 Openhack</a>. 
-				The <strong>challenge</strong>, proposed by the Ludwig Boltzmann Institute of Human Rights (BIM) in Vienna, was to create a site that showcased torture-awareness events around the world.
-			</p>
-			<p>
-				We focused our day and a half in creating a <strong>stunning visualization</strong>, showing the events as nodes of light in a dark world. The biggest technical challenge was using three.js to create the 3D globe and learning about <strong>textures, meshes and shaders</strong>.
-			</p>
-			<p>
-				We ended up winning the awards for best humanitarian impact and best speech :).
-			</p>
-		</div>
-	</section>
-</div>
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  </p>
+  <section>
+    <h2>Me in 30 seconds</h2>
+    <p>
+      I am a bioinformatician who loves creating <a href="#apps"> web applications</a>.
+      Science is fun, but I like working on anything 
+      that makes the user's lives easier.
+    </p>
+    <p>
+      I do <strong>front-end</strong>, where you I communicate
+      with the user thanks to the language of UX/UI.
+      I value <strong>usability</strong>, <strong>stability</strong> and <strong>code maintainability</strong>, 
+      specially for large applications.
+    </p>
+    <p>
+      My code here is usually <strong>vanilla</strong> or <strong>ReactJS</strong>, 
+      and I also have some experience with D3.js.
+    </p>
+    <p>
+      I also deal with <strong>back-end</strong>, where
+      the heavy lifting is usually done.
+      My preferred tools here 
+      are <strong>Python</strong> (Django and Flask) 
+      and <strong>Node</strong> (Express).
+    </p>
+    <p>
+      Above all, I value learning. Experience and skill shouldn't be only measured
+      in years but in the actions you take to continue learning. 
+    </p>
+    <p>
+      Hey, but not everything is programming. I also enjoy reading books 
+      and growing plants using the magic of Hydroponics. Space, travelling,
+      philosophy, games, <a href="https://waitbutwhy.com">the why of things</a>,
+      meditation, cats, minimalism or Japan are topics you can 
+      use to get me to talk for a while.
+    </p>
+  </section>
+  <section>
+    <h2 id="apps">Web applications</h2>
+      <p>I've worked on some web applications over the years. The stacks used vary a lot, as I like to test new technologies and frameworks.</p>
+      <p>Here are some of them. <a href="/tortureglobe">Torture Awareness Globe</a>, <a href="/gene-database">Gene Database</a> and <a href="/charitymatch">CharityMatch</a></p>
+  </section>
+  <section class="posts">
+    <h2>Posts</h2>
+    {% for post in site.posts reversed %}
+      <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="entry">
+    {{ post.excerpt }}
+        </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </section>
 </div>

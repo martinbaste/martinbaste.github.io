@@ -16,6 +16,7 @@
   </head>
 
   <body>
+<<<<<<< HEAD
     <header class="container">
       {% if site.avatar %}
       <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -24,6 +25,28 @@
       <div class="site-info">
         <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
         <p class="site-description">{{ site.description }}</p>
+=======
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          {% if site.avatar %}
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          {% endif %}
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            {% if site.description %}<p class="site-description">{{ site.description }}</p>{% endif %}
+            <div class="links">
+              <a href="{{ site.baseurl }}/now">Now</a>
+            </div>
+          </div>
+
+          <nav>
+            <!--<a href="{{ site.baseurl }}/">Blog</a>-->
+            
+          </nav>
+        </header>
+>>>>>>> e373f500e114ce2a97fe5b39e69efb16f9cd6d67
       </div>
 
       <nav>

@@ -84,3 +84,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+prose:
+  siteurl: 'https://martinbaste.com/'
+  media: 'media'
