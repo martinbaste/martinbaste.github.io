@@ -7,7 +7,7 @@ layout: default
     I believe in keeping what matters and discarding the rest.
     Obviously inspired by <a href="https://sivers.org">Sivers's site</a>.
   </p>
-  <section>
+  <!-- <section>
     <h2>Me in 30 seconds (from 2018, gotta update it)</h2>
     <p>
       I am a bioinformatician who loves creating <a href="#apps"> web applications</a>.
@@ -42,7 +42,7 @@ layout: default
       meditation, cats, minimalism or Japan are topics you can 
       use to get me to talk for a while.
     </p>
-  </section>
+  </section> -->
   <section>
     <h2 id="apps">Web applications</h2>
       <p>I've worked on some web applications over the years. The stacks used vary a lot, as I like to test new technologies and frameworks.</p>
@@ -50,7 +50,7 @@ layout: default
   </section>
   <section class="posts">
     <h2>Posts</h2>
-    {% for post in site.posts reversed %}
+    {% for post in site.posts %}
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
